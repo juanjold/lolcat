@@ -1,0 +1,63 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-01-11 17:46:29 -0500
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (126ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-01-11 17:46:35 -0500
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-01-11 17:46:38 -0500
+Served asset /rails.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-01-11 17:46:42 -0500
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-01-11 17:46:43 -0500
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2013-01-11 17:46:56 -0500
+Processing by Rails::InfoController#properties as */*
+  Rendered inline template (19.0ms)
+Completed 200 OK in 86ms (Views: 86.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-01-13 22:19:47 -0500
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (3ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-01-13 22:19:56 -0500
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-01-13 23:04:10 -0500
+Connecting to database specified by database.yml
+Served asset /rails.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-01-13 23:33:29 -0500
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (1ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-01-13 23:34:37 -0500
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-01-13 23:35:43 -0500
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-01-13 23:36:54 -0500
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-01-13 23:57:09 -0500
+Connecting to database specified by database.yml
+Served asset /rails.png - 304 Not Modified (3ms)
