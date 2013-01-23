@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Ruby on Rails: Welcome aboard</title>
-    <style type="text/css" media="screen">
+    <title>Juanjo Lopez D</title>
+        <style type="text/css" media="screen">
       body {
+      	background-image:url('bg.jpg');
         margin: 0;
         margin-bottom: 25px;
         padding: 0;
-        background-color: #f0f0f0;
+        background-color: #d1d1d1;
         font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana";
         font-size: 13px;
         color: #333;
@@ -18,16 +19,15 @@
         color: #000;
       }
 
-      a  {color: #03c}
+      a  {color: #6684e0}
       a:hover {
-        background-color: #03c;
+        background-color: #6684e0;
         color: white;
         text-decoration: none;
       }
 
 
       #page {
-        background-color: #f0f0f0;
         width: 750px;
         margin: 0;
         margin-left: auto;
@@ -35,12 +35,13 @@
       }
 
       #content {
-        float: left;
-        background-color: white;
+        display: inline-block;
+        background-color: rgba(255,255,255,0.6);
         border: 3px solid #aaa;
         border-top: none;
-        padding: 25px;
+        padding: 50px;
         width: 800px;
+        margin-left: 120px;
       }
 
       #sidebar {
@@ -52,99 +53,57 @@
         clear: both;
       }
 
-      #header, #about, #getting-started {
+      #header, #about, #socmedia {
         padding-left: 75px;
         padding-right: 30px;
+ 
       }
 
 
       #header {
-        background-image: url("assets/rails.png");
         background-repeat: no-repeat;
         background-position: top left;
         height: 64px;
       }
       #header h1, #header h2 {margin: 0}
-      #header h2 {
+      h2 {
         color: #888;
         font-weight: normal;
         font-size: 16px;
       }
 
-
-      #about h3 {
-        margin: 0;
-        margin-bottom: 10px;
-        font-size: 14px;
-      }
-
-      #about-content {
-        background-color: #ffd;
-        border: 1px solid #fc0;
-        margin-left: -55px;
-        margin-right: -10px;
-      }
-      #about-content table {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 11px;
-        border-collapse: collapse;
-      }
-      #about-content td {
-        padding: 10px;
-        padding-top: 3px;
-        padding-bottom: 3px;
-      }
-      #about-content td.name  {color: #555}
-      #about-content td.value {color: #000}
-
-      #about-content ul {
-        padding: 0;
-        list-style-type: none;
-      }
-
-      #about-content.failure {
-        background-color: #fcc;
-        border: 1px solid #f00;
-      }
-      #about-content.failure p {
-        margin: 0;
-        padding: 10px;
-      }
-
-
-      #getting-started {
+      #socmedia {
         border-top: 1px solid #ccc;
         margin-top: 25px;
         padding-top: 15px;
       }
-      #getting-started h1 {
+      #socmedia h1 {
         margin: 0;
         font-size: 20px;
       }
-      #getting-started h2 {
+      #socmedia h2 {
         margin: 0;
         font-size: 14px;
         font-weight: normal;
         color: #333;
         margin-bottom: 25px;
       }
-      #getting-started ol {
+      #socmedia ol {
         margin-left: 0;
         padding-left: 0;
       }
-      #getting-started li {
+      #socmedia li {
         font-size: 18px;
         color: #888;
         margin-bottom: 25px;
       }
-      #getting-started li h2 {
+      #socmedia li h2 {
         margin: 0;
         font-weight: normal;
         font-size: 18px;
         color: #333;
       }
-      #getting-started li p {
+      #socmedia li p {
         color: #555;
         font-size: 13px;
       }
@@ -166,7 +125,7 @@
       #sidebar ul.links li {
         margin-bottom: 5px;
       }
-
+      
       .filename {
         font-style: italic;
       }
@@ -187,23 +146,48 @@
   </head>
   <body>
       <div id="content">
-        <div id="header">
+        <div id="header">      
+        	<div id="sidebar">
+        		   	<img src="https://twimg0-a.akamaihd.net/profile_images/1222457726/DSC077442_bigger.jpg" />
+        		   </div>
           <h1>Playing Around</h1>
-          <h2>Lolcats on Rails!</h2>
+          <h2>Social Media</h2>
+                   
         </div>
 
-        <div id="getting-started">
-          <h1>Getting started</h1>
-          <h2>Here&rsquo;s how to get lolling:</h2>
-
+        <div id="socmedia">
+          <h1>Twitter Profile</h1>
             <li>
-            	<h2>Just look at him:</h2>
-            		<img src="lolcat.jpg" align="center" width=""/>
+            	<h2><a href="https://twitter.com/juanjo_ld"> @juanjo_ld </a></h2>
             </li>
+           </div>
+           
+        <div id="socmedia">
+          <h1>Facebook Profile</h1>
+            <li>
+            	<h2><a href="http://www.facebook.com/juanjo.lopez"> Juan Jos&eacute; L&oacute;pez Delgado </a></h2>
+            </li>
+           </div>
+           
+        <div id="socmedia">
+          <h1>Github</h1>
+            <li>
+            	<h2><a href="https://github.com/juanjold/"> #juanjold </a></h2>
+            </li>
+           </div>
+        <div id="socmedia">
+        	<h1>Rehearsal Update</h1>
+        	<h2>Because they're useful</h2>
+        	<form name="input" action="" method="post">
+        	Your name: <input type="text" name="name" /> <br>
+        	Date: <input type="date" name="date"/> <br>
+        	Type: <input type="checkbox" name="music" value="Music"> Music <input type="checkbox" name="stage" value="Stage">Stage <br><br>
+			<textarea name="Notes" cols="70" rows="5" onfocus="if(this.value==this.defaultValue)this.value='';">Enter your comments here...</textarea><br>
+			<input type="submit" value="Submit">
+			</form>
           </ol>
         </div>
       </div>
-
       <div id="footer">&nbsp;</div>
     </div>
   </body>
